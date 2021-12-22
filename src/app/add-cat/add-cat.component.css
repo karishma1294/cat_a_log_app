@@ -1,0 +1,298 @@
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    height: 56px;
+    align-items: center;
+    background-color: #007cb0;
+    color: white;
+    font-weight: 600;
+    position: relative;
+  }
+
+  .title{
+    text-align: center;
+    width: 300px;
+    height: 24px;
+    margin: 0 32px 0 24px;
+    padding: 0 222.5px 0 0;
+    position: absolute;
+    bottom: 20px;
+    font-size: 25px;
+  }
+  
+
+  .cat-card{
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 350px;
+    right:350px;
+    width: 412px;
+    background-color: #fff;
+    border: 1px solid #007cb0;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 8px;
+  }
+
+
+.icon-hamburger{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 0 24px 0 10px;
+    padding: 5px 0 4px;
+    object-fit: contain;
+}
+
+.menu-icon{
+    height: 32px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    /* margin: -38px 24px 0 0; */
+    padding: 5px 0 4px;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    border: 0;
+}
+.submit-button{
+    width: 344px;
+    height: 64px;
+    margin: 41px 36px 20px 32px;
+    padding: 19px 8px 18px;
+    background-color: #007cb0;
+    border: none;
+}
+
+.button-text{
+    width: 328px;
+  height: 27px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Input-label {
+    width: 375px;
+    height: 14px;
+    margin: 0 1px 3px 0;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #007cb0;
+  }
+
+  .name, .rating{
+        width: 392px;
+        height: 72px;
+        /* margin: 16px 20px 87px 0; */
+        padding: 14px 8px 1px;
+        background-color: #fff;
+      
+  }
+  .input-text{
+    border: none;
+    border-bottom: 1px solid;
+    width: 375px;
+    height: 24px;
+    margin: 3px 1px 0 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #bdbdbd;
+  }
+
+  .rating-label{
+    width: 108px;
+    height: 14px;
+    margin: 4px 45px 12px 0;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #007cb0;
+ }
+ .cat-image {
+    display: block;
+    width: 388px;
+    height: 248px;
+    margin: 0 10px;
+    position: relative;
+    background-color: #03a9f4;
+    box-shadow: 2px 2px 9px grey;
+ }
+ .upload-image{
+    width: 388px;
+    height: 311px;
+    margin: 16px 16px 73px 8px;
+    padding: 0 0 19px;
+    /* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26); */
+    background-color: #fff;
+    
+ }
+ .upload-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    margin: 0 15px 0 10px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+ }
+ .save-button{
+    width: 67px;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #328afb;
+ }
+ .cancel{
+    width: 76px;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+ }
+
+ .uploadImageText{
+    width: 127px;
+    height: 35px;
+    margin: 0 70.6px 0 0;
+    padding: 9px 12px 7px 13px;
+    border-radius: 3px;
+ }
+ .location-label{
+    width: 324px;
+  height: 24px;
+  margin: 0 9px 28px 8px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #4c4c4c;
+ }
+ .location-div{
+    width: 381px;
+    height: 110px;
+    margin: 2px 14px 0;
+    background-color: #bdbdbd;
+ }
+
+ .set-current-location {
+    width: 123px;
+    height: 20px;
+    margin: 32px 16px 41px 273px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #007cb0;
+ }
+ .secondary-text-Lorem {
+    width: 365px;
+    height: 20px;
+    margin: 0 14px 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #8e8e8e;
+  }
+  .insert-image-text{
+    left: 25px;
+    bottom: 0;
+    position: absolute;
+    width: 267px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .track-text{
+      display: block;
+      width: 324px;
+      height: 20px;
+      margin: 0px 9px 10px 60px;;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: #8e8e8e;
+  }
+  .location-image{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 14px;
+    background-color: #000;
+  }

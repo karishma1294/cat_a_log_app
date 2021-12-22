@@ -1,0 +1,37 @@
+<div class="cat-card">
+    <div class="toolbar" role="banner">
+        <img src="../assets/icon-hamburger-icon.PNG" class="icon-hamburger">
+        <span style="text-align: center;" class="title">Cat-a-log</span>
+        <img src="../assets/menu.PNG" class="menu-icon">
+    </div>
+
+
+    <div class="imageList" *ngIf="!addCatButtonClicked">
+        <div class="image-list-div">
+            <ng-container *ngFor="let image of showImageTimes; let i=index">
+                <img [src]="image.src" class="image-list">
+                <div class="image-text">
+                    <img src="../../assets/location.PNG" class="location-image">
+                    <p class="image-text-p">Card title</p>
+                    <img src="../../assets/filled-rating.PNG" style="float: right;width: auto;
+            height: 22px;">
+                </div>
+                <hr style="margin: 20px 30px;" *ngIf="i!=showImageTimes.length-1">
+            </ng-container>
+        </div>
+
+        <div class="button-list">
+            <button style="width: 30px;
+        height: 30px;">X</button>
+            <button style="width: 30px;
+        height: 30px;">B1</button>
+            <button style="width: 30px;
+        height: 30px;">B2</button>
+            <button style="width: 30px;
+        height: 30px;">B3</button>
+            <button (click)="openAddCat()" routerLinkActive="active" style="
+            background-color: red;" class="add-button">+</button>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,126 @@
+img.image-list{
+    width: 344px;
+  height: 192px;
+  /* padding: 191px 0 0; */
+  display: block;
+  padding: 0 34px;
+  padding-top:22px;
+}
+
+/* .imageList{
+    top: 78px;
+} */
+.imageList{
+position: absolute;
+align-items: center;
+color: white;
+font-weight: 600;
+border: 1px solid grey;
+}
+
+.button-list{
+    position: absolute;
+    z-index: 9;
+    margin: 30px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 10px;
+    border-radius: 26px;
+    border: none;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.add-button{
+    background-color: red;
+    width: 35px;
+    height: 35px;
+}
+.toolbar {
+  height: 56px;
+  align-items: center;
+  background-color: #007cb0;
+  color: white;
+  font-weight: 600;
+  position: relative;
+}
+
+.title{
+  text-align: center;
+  width: 300px;
+  height: 24px;
+  margin: 0 32px 0 24px;
+  padding: 0 222.5px 0 0;
+  position: absolute;
+  bottom: 20px;
+  font-size: 25px;
+}
+
+
+.cat-card{
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 350px;
+  right:350px;
+  width: 412px;
+  background-color: #fff;
+  border: 1px solid #007cb0;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+
+.icon-hamburger{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: 0 24px 0 10px;
+  padding: 5px 0 4px;
+  object-fit: contain;
+}
+
+.menu-icon{
+  height: 32px;
+  float: right;
+  width: 30px;
+  height: 30px;
+  /* margin: -38px 24px 0 0; */
+  padding: 5px 0 4px;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  border: 0;
+}
+
+.location-image{
+    width: 40px;
+    height: 40px;
+    float: left;
+    /* margin-left: 14px; */
+    margin-left: -65px;
+}
+.image-text-p{
+    color:black;
+    width: 40%;
+}
+
+.image-text{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
